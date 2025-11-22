@@ -3,7 +3,8 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
-import { Menu, X, GraduationCap } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { cn } from '@/lib/utils';
@@ -39,8 +40,8 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-card shadow-sm">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
-        <Link href="/" className="flex items-center gap-2">
-          <GraduationCap className="h-7 w-7 text-primary" />
+        <Link href="/" className="flex items-center gap-3">
+          <Image src="/Images/logo.jpeg" alt="College Logo" width={48} height={48} className="h-10 w-10 rounded-full object-contain" priority />
           <span className="font-bold text-sm md:text-base leading-tight">
             Dr V P Kanakaraddi Memorial<br className="hidden sm:block md:hidden" /> College Of Nursing
           </span>
@@ -66,7 +67,7 @@ export default function Header() {
               <div className="flex flex-col space-y-6 p-6">
                 <div className="flex items-center justify-between">
                     <Link href="/" className="flex items-center gap-2" onClick={() => setIsSheetOpen(false)}>
-                        <GraduationCap className="h-6 w-6 text-primary" />
+                        <Image src="/Images/college-logo.svg" alt="College Logo" width={36} height={36} className="h-9 w-9 rounded-full object-contain" />
                         <span className="font-bold">VPK Nursing College</span>
                     </Link>
                 </div>

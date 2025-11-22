@@ -3,20 +3,20 @@
     {
       "id": "hero-nursing-education",
       "description": "A diverse group of nursing students in a modern classroom setting.",
-      "imageUrl": "https://images.unsplash.com/photo-1620063443630-fa4536b27a6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxudXJzaW5nJTIwc3R1ZGVudHN8ZW58MHx8fHwxNzYzNzg4ODA4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/Images/banner image.png",
       "imageHint": "nursing students"
     },
     {
       "id": "director-photo",
       "description": "Professional headshot of Dr. Sharvani Ajit Kanakaraddi, the director.",
-      "imageUrl": "/Images/WhatsApp Image 2025-11-22 at 10.18.05 AM (1).jpeg",
-      "imageHint": "woman professional"
+      "imageUrl": "/Images/principal.jpg",
+      "imageHint": "director headshot"
     },
     {
       "id": "principal-photo",
       "description": "Professional headshot of the college principal.",
-      "imageUrl": "/Images/WhatsApp Image 2025-11-22 at 10.18.05 AM.jpeg",
-      "imageHint": "woman professional"
+      "imageUrl": "/Images/director.jpg",
+      "imageHint": "principal headshot"
     },
     {
       "id": "college-campus-1",
@@ -63,19 +63,19 @@
     {
       "id": "logo-karnataka",
       "description": "Logo of the Government of Karnataka.",
-      "imageUrl": "https://images.unsplash.com/photo-1756988183893-dbf4a5dbbce7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxnb3Zlcm5tZW50JTIwc2VhbHxlbnwwfHx8fDE3NjM3ODg4MDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/Images/GOV of Karnataka.png",
       "imageHint": "government seal"
     },
     {
       "id": "logo-knc",
       "description": "Logo of the Karnataka State Nursing Council.",
-      "imageUrl": "https://images.unsplash.com/photo-1613256168695-b13ed5ba9500?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtZWRpY2FsJTIwbG9nb3xlbnwwfHx8fDE3NjM3MzIwMTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/Images/KSNC.jpg",
       "imageHint": "medical logo"
     },
     {
       "id": "logo-rguhs",
       "description": "Logo of Rajiv Gandhi University of Health Sciences.",
-      "imageUrl": "https://images.unsplash.com/photo-1738464024478-2a60ac914513?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwbG9nb3xlbnwwfHx8fDE3NjM3MTM4NzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/Images/RAJIVE gandi.png",
       "imageHint": "university logo"
     },
     {

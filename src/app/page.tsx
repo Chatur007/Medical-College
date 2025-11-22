@@ -72,13 +72,18 @@ export default function Home() {
               </p>
             </div>
             <div className="relative h-64 md:h-80 rounded-lg overflow-hidden shadow-lg">
-                <Image
-                    src={PlaceHolderImages.find(p => p.id === 'college-campus-1')?.imageUrl || ''}
-                    alt="College campus building"
-                    fill
-                    className="object-cover"
-                    data-ai-hint={PlaceHolderImages.find(p => p.id === 'college-campus-1')?.imageHint}
-                />
+              <video
+                className="h-full w-full object-cover"
+                src="/Videos/WhatsApp Video 2025-11-22 at 10.18.06 AM.mp4"
+                poster={PlaceHolderImages.find(p => p.id === 'college-campus-1')?.imageUrl || ''}
+                autoPlay
+                muted
+                loop
+                playsInline
+                controls
+              >
+                Your browser does not support the video tag.
+              </video>
             </div>
           </div>
         </section>
