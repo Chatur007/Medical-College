@@ -28,7 +28,7 @@ function WhatsappIcon(props: React.ComponentProps<'svg'>) {
 
 
 export default function Footer() {
-  const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
+  const [currentYear, setCurrentYear] = useState<number | null>(null);
 
   useEffect(() => {
     setCurrentYear(new Date().getFullYear());
@@ -97,7 +97,7 @@ export default function Footer() {
       </div>
       <div className="bg-slate-900 py-4">
         <div className="container mx-auto px-4 text-center text-xs text-slate-400">
-          <p>&copy; {currentYear} Dr V P Kanakaraddi Memorial College Of Nursing. All rights reserved.</p>
+          <p>&copy; {currentYear ?? new Date().getFullYear()} Dr V P Kanakaraddi Memorial College Of Nursing. All rights reserved.</p>
         </div>
       </div>
     </footer>
