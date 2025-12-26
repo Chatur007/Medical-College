@@ -1,0 +1,56 @@
+{
+  "name": "Dr V P Kanakaraddi Memorial College Of Nursing",
+  "short_name": "VPK Nursing College",
+  "description": "The Dr V P Kanakaraddi Memorial College Of Nursing, Mahalingpur",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f172a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/Images/logo.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/Images/logo.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/Images/banner image.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "categories": ["education", "medical", "health"],
+  "shortcuts": [
+    {
+      "name": "Faculty",
+      "short_name": "Faculty",
+      "description": "View faculty members",
+      "url": "/faculty",
+      "icons": [{ "src": "/Images/logo.jpeg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Programs",
+      "short_name": "Programs",
+      "description": "View programs offered",
+      "url": "/programs",
+      "icons": [{ "src": "/Images/logo.jpeg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Gallery",
+      "short_name": "Gallery",
+      "description": "View photo gallery",
+      "url": "/gallery",
+      "icons": [{ "src": "/Images/logo.jpeg", "sizes": "192x192" }]
+    }
+  ]
+}
